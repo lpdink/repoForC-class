@@ -1,0 +1,11 @@
+E:\C#P\Console-list\Console-list\bin\Debug\netcoreapp3.1\Console-list.exe
+E:\C#P\Console-list\Console-list\bin\Debug\netcoreapp3.1\Console-list.deps.json
+E:\C#P\Console-list\Console-list\bin\Debug\netcoreapp3.1\Console-list.runtimeconfig.json
+E:\C#P\Console-list\Console-list\bin\Debug\netcoreapp3.1\Console-list.runtimeconfig.dev.json
+E:\C#P\Console-list\Console-list\bin\Debug\netcoreapp3.1\Console-list.dll
+E:\C#P\Console-list\Console-list\bin\Debug\netcoreapp3.1\Console-list.pdb
+E:\C#P\Console-list\Console-list\obj\Debug\netcoreapp3.1\Console-list.csprojAssemblyReference.cache
+E:\C#P\Console-list\Console-list\obj\Debug\netcoreapp3.1\Console-list.AssemblyInfoInputs.cache
+E:\C#P\Console-list\Console-list\obj\Debug\netcoreapp3.1\Console-list.AssemblyInfo.cs
+E:\C#P\Console-list\Console-list\obj\Debug\netcoreapp3.1\Console-list.dll
+E:\C#P\Console-list\Console-list\obj\Debug\netcoreapp3.1\Console-list.pdb

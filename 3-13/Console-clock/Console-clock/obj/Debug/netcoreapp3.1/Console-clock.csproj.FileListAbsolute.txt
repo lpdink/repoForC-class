@@ -1,0 +1,11 @@
+E:\C#P\Console-clock\Console-clock\bin\Debug\netcoreapp3.1\Console-clock.exe
+E:\C#P\Console-clock\Console-clock\bin\Debug\netcoreapp3.1\Console-clock.deps.json
+E:\C#P\Console-clock\Console-clock\bin\Debug\netcoreapp3.1\Console-clock.runtimeconfig.json
+E:\C#P\Console-clock\Console-clock\bin\Debug\netcoreapp3.1\Console-clock.runtimeconfig.dev.json
+E:\C#P\Console-clock\Console-clock\bin\Debug\netcoreapp3.1\Console-clock.dll
+E:\C#P\Console-clock\Console-clock\bin\Debug\netcoreapp3.1\Console-clock.pdb
+E:\C#P\Console-clock\Console-clock\obj\Debug\netcoreapp3.1\Console-clock.csprojAssemblyReference.cache
+E:\C#P\Console-clock\Console-clock\obj\Debug\netcoreapp3.1\Console-clock.AssemblyInfoInputs.cache
+E:\C#P\Console-clock\Console-clock\obj\Debug\netcoreapp3.1\Console-clock.AssemblyInfo.cs
+E:\C#P\Console-clock\Console-clock\obj\Debug\netcoreapp3.1\Console-clock.dll
+E:\C#P\Console-clock\Console-clock\obj\Debug\netcoreapp3.1\Console-clock.pdb
