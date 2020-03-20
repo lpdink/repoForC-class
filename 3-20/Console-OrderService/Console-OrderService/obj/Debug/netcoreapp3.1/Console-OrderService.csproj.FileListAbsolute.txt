@@ -1,0 +1,11 @@
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\bin\Debug\netcoreapp3.1\Console-OrderService.exe
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\bin\Debug\netcoreapp3.1\Console-OrderService.deps.json
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\bin\Debug\netcoreapp3.1\Console-OrderService.runtimeconfig.json
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\bin\Debug\netcoreapp3.1\Console-OrderService.runtimeconfig.dev.json
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\bin\Debug\netcoreapp3.1\Console-OrderService.dll
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\bin\Debug\netcoreapp3.1\Console-OrderService.pdb
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\obj\Debug\netcoreapp3.1\Console-OrderService.csprojAssemblyReference.cache
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\obj\Debug\netcoreapp3.1\Console-OrderService.AssemblyInfoInputs.cache
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\obj\Debug\netcoreapp3.1\Console-OrderService.AssemblyInfo.cs
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\obj\Debug\netcoreapp3.1\Console-OrderService.dll
+E:\appProjects\csharpProjects\Console-OrderService\Console-OrderService\obj\Debug\netcoreapp3.1\Console-OrderService.pdb
