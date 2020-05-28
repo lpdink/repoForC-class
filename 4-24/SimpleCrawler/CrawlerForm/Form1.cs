@@ -12,11 +12,13 @@ using System.Windows.Forms;
 
 namespace CrawlerForm {
   public partial class Form1 : Form {
+    //设置数据绑定
     BindingSource resultBindingSource = new BindingSource();
-    Crawler crawler = new Crawler();
+        //通过线程启动爬虫
     Thread thread = null;
+    static Crawler crawler = new Crawler();
 
-    public Form1() {
+        public Form1() {
       InitializeComponent();
       dgvResult.DataSource = resultBindingSource;
       crawler.PageDownloaded += Crawler_PageDownloaded;
@@ -62,5 +64,18 @@ namespace CrawlerForm {
 
     }
 
-  }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog dialog = new FolderBrowserDialog();
+            dialog.Description = "请选择文件路径";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                string foldPath = dialog.SelectedPath;
+                //MessageBox.Show("已选择文件夹:" + foldPath, "选择文件夹提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                textBox1.Text = foldPath;
+                crawler.filePath = textBox1.Text;
+            }
+
+        }
+    }
 }

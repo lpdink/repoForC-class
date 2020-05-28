@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -30,17 +31,19 @@ namespace CrawlerForm {
     public string FileFilter { get; set; } //文件过滤规则
     public int MaxPage { get; set; } //最大下载数量
     public string StartURL { get; set; } //起始网址
+    public string filePath { set; get; }//指定目录
     public Encoding HtmlEncoding { get; set; } //网页编码
     public Dictionary<string, bool> DownloadedPages { get => urls; }
 
-    public Crawler() {
+    public Crawler(string filepath="") {
       MaxPage = 100;
       HtmlEncoding = Encoding.UTF8;
+      filePath = filepath;
     }
 
     public void Start() {
       urls.Clear();
-      pending.Clear();
+      pending = new ConcurrentQueue<string>();
       pending.Enqueue(StartURL);
 
       while (urls.Count < MaxPage && pending.Count > 0) {
@@ -61,7 +64,7 @@ namespace CrawlerForm {
       WebClient webClient = new WebClient();
       webClient.Encoding = Encoding.UTF8;
       string html = webClient.DownloadString(url);
-      string fileName = urls.Count.ToString();
+      string fileName =filePath+"\\"+urls.Count.ToString();
       File.WriteAllText(fileName, html, Encoding.UTF8);
       return html;
     }
