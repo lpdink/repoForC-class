@@ -64,7 +64,7 @@ namespace CrawlerForm {
       WebClient webClient = new WebClient();
       webClient.Encoding = Encoding.UTF8;
       string html = webClient.DownloadString(url);
-      string fileName =filePath+"\\"+urls.Count.ToString();
+      string fileName =filePath+"\\"+urls.Count.ToString()+".html";
       File.WriteAllText(fileName, html, Encoding.UTF8);
       return html;
     }

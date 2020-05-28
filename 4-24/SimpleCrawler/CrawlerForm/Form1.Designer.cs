@@ -49,7 +49,7 @@
             this.URL,
             this.status});
             this.dgvResult.Location = new System.Drawing.Point(33, 119);
-            this.dgvResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvResult.Margin = new System.Windows.Forms.Padding(4);
             this.dgvResult.Name = "dgvResult";
             this.dgvResult.RowHeadersWidth = 51;
             this.dgvResult.RowTemplate.Height = 23;
@@ -94,9 +94,11 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.txtUrl);
             this.flowLayoutPanel1.Controls.Add(this.btnStart);
+            this.flowLayoutPanel1.Controls.Add(this.textBox1);
+            this.flowLayoutPanel1.Controls.Add(this.button1);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(27, 25, 0, 0);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1417, 76);
@@ -105,7 +107,7 @@
             // txtUrl
             // 
             this.txtUrl.Location = new System.Drawing.Point(31, 29);
-            this.txtUrl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUrl.Margin = new System.Windows.Forms.Padding(4);
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.Size = new System.Drawing.Size(548, 25);
             this.txtUrl.TabIndex = 4;
@@ -114,7 +116,7 @@
             // btnStart
             // 
             this.btnStart.Location = new System.Drawing.Point(587, 29);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(4);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(100, 29);
             this.btnStart.TabIndex = 3;
@@ -133,14 +135,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(31, 87);
+            this.textBox1.Location = new System.Drawing.Point(694, 28);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(548, 25);
+            this.textBox1.Size = new System.Drawing.Size(259, 25);
             this.textBox1.TabIndex = 7;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(587, 83);
+            this.button1.Location = new System.Drawing.Point(959, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 29);
             this.button1.TabIndex = 8;
@@ -153,13 +155,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1417, 718);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.dgvResult);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).EndInit();
